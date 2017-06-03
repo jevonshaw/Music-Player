@@ -1,0 +1,45 @@
+#include <iostream>
+#include <windows.h>
+#include <vector>
+using namespace std;
+
+void play(char n){
+    if (n == 'a')
+        Beep(440,800); //A
+    if (n == 'b')
+        Beep(493.9,800); //B
+    if (n == 'c')
+        Beep(523.3,800); //C
+}
+
+int main(int argc, char *argv[])
+{
+/*
+    char* note = new char;
+//    vector<char> notes(3);
+
+    Beep(440,800); //low A
+    Beep(493.9,800); //B
+    Beep(523.3,800); //C
+    Beep(587.3,800); //D
+    Beep(659.3,800); //E
+    Beep(740,800); //F
+    Beep(784,800); //G
+    Beep(880,800); //high A
+
+
+    cin>> *note;
+
+    if (note != NULL){
+        play(*note);
+    }
+
+    //Beep(440,800); //A
+    //Beep(880,800); //A
+
+    //delete note;
+*/
+
+
+    return 0;
+}
